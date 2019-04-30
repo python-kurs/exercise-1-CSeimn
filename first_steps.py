@@ -31,7 +31,7 @@ v_3 = c/f
 n  = 10
 pi = 3.14159265358979323846264338
 
-print('Pi rounded to the first ', n, ' decimals is: ', pi)
+print('Pi rounded to the first ', n, ' decimals is: ', "{0:11.10f}".format (pi))
 # ------------------------------------
 # - Don't change stuff below this line
 # ------------------------------------
